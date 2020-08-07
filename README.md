@@ -19,10 +19,10 @@ add your phone number. after the setup. open the texter.py
 
 Then copy and paste the following requirements. You can find then in the Settings
 
-  account_sid = 'ACCOUNT SID' 
-  auth_token = 'AUTH TOKEN'
-  myPhone = 'Real_Number'
-  TwilioNumber = 'Trial_Number'
+	account_sid = 'ACCOUNT SID'
+  	auth_token = 'AUTH TOKEN'
+  	myPhone = 'Real_Number'
+  	TwilioNumber = 'Trial_Number'
 
 ## Good to Go.
 
