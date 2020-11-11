@@ -39,13 +39,16 @@ print("")
 print('From=	'+ TwilioNumber)
 target = input("Target: ")
 body = input("Message: ")
+time = int(input("Number of SMS: "))
 
 print(bcolors.CVIOLET + "")
-print("~> " + bcolors.WARNING + bcolors.BOLD + target + " Targeting...")
-client.messages.create(
-  to=myPhone,
-  from_=TwilioNumber,
-body= body)
+for i in range(time):
+	print("~> " + bcolors.WARNING + bcolors.BOLD + target + " Targeting...")
+	client.messages.create(
+	  to=myPhone,
+	  from_=TwilioNumber,
+	body= body)
+
 print(bcolors.BOLD + bcolors.OKBLUE + '''
 			!!!Message Send!!!
 ''' + bcolors.ENDC)
